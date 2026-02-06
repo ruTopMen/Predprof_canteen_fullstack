@@ -59,8 +59,6 @@ export default function CookPage() {
       // Меню
       if (menuRes.status === 'fulfilled') {
         setMenu(menuRes.value)
-        const lowStock = menuRes.value.filter((item: any) => item.available_qty < 10)
-        setLowStockItems(lowStock)
       } else {
         console.error("Ошибка загрузки меню:", menuRes.reason)
       }
@@ -77,9 +75,13 @@ export default function CookPage() {
       // Склад
       if (inventoryRes.status === 'fulfilled') {
         setInventory(inventoryRes.value)
+        // Уведомления о низком остатке на складе
+        const lowStock = inventoryRes.value.filter((item: any) => item.quantity <= item.min_threshold && item.min_threshold > 0)
+        setLowStockItems(lowStock)
       } else {
         console.error("Ошибка загрузки склада:", inventoryRes.reason)
         setInventory([])
+        setLowStockItems([])
       }
 
     } catch (e) {
@@ -216,9 +218,9 @@ export default function CookPage() {
                   <ul className="space-y-2">
                     {lowStockItems.map(item => (
                       <li key={item.id} className="flex justify-between items-center bg-white p-3 rounded-lg border border-slate-100 shadow-sm">
-                        <span className="text-sm font-medium text-slate-700">{item.name}</span>
-                        <Badge variant="outline" className={`${item.available_qty === 0 ? 'bg-red-50 text-red-600 border-red-200' : 'bg-yellow-50 text-yellow-700 border-yellow-200'}`}>
-                          {item.available_qty === 0 ? 'Закончилось' : `Ост: ${item.available_qty}`}
+                        <span className="text-sm font-medium text-slate-700">{item.product_name}</span>
+                        <Badge variant="outline" className={`${item.quantity === 0 ? 'bg-red-50 text-red-600 border-red-200' : 'bg-yellow-50 text-yellow-700 border-yellow-200'}`}>
+                          {item.quantity === 0 ? 'Закончилось' : `Ост: ${item.quantity} ${item.unit}`}
                         </Badge>
                       </li>
                     ))}
