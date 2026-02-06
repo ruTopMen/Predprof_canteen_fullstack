@@ -1,0 +1,87 @@
+
+> school-canteen@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/rutopmen/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/rutopmen/workspace/canteen-backend/frontend/package-lock.json
+
+▲ Next.js 16.1.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.19.187.63:3000
+
+✓ Starting...
+✓ Ready in 666ms
+ GET / 200 in 422ms (compile: 248ms, render: 174ms)
+ GET /register 200 in 112ms (compile: 91ms, render: 21ms)
+ GET / 200 in 27ms (compile: 2ms, render: 24ms)
+ GET /register 200 in 24ms (compile: 4ms, render: 20ms)
+ GET /register 200 in 46ms (compile: 3ms, render: 43ms)
+ GET / 200 in 36ms (compile: 3ms, render: 33ms)
+ GET /register 200 in 27ms (compile: 3ms, render: 24ms)
+ GET / 200 in 27ms (compile: 3ms, render: 24ms)
+ GET /auth/register 404 in 612ms (compile: 565ms, render: 47ms)
+ GET / 200 in 29ms (compile: 3ms, render: 27ms)
+ GET / 200 in 18ms (compile: 3ms, render: 15ms)
+ GET / 200 in 43ms (compile: 4ms, render: 40ms)
+ GET / 200 in 37ms (compile: 2ms, render: 34ms)
+ GET / 200 in 79ms (compile: 4ms, render: 75ms)
+ GET / 200 in 35ms (compile: 3ms, render: 32ms)
+ GET / 200 in 78ms (compile: 3ms, render: 75ms)
+ GET / 200 in 33ms (compile: 2ms, render: 31ms)
+ GET /cook 200 in 42ms (compile: 23ms, render: 18ms)
+ GET /register 200 in 41ms (compile: 5ms, render: 36ms)
+ GET / 200 in 24ms (compile: 3ms, render: 21ms)
+ GET / 200 in 47ms (compile: 5ms, render: 42ms)
+ GET /student 200 in 54ms (compile: 31ms, render: 24ms)
+ GET /student 200 in 103ms (compile: 4ms, render: 99ms)
+ GET / 200 in 117ms (compile: 5ms, render: 112ms)
+ GET / 200 in 55ms (compile: 4ms, render: 51ms)
+ GET /cook 200 in 16ms (compile: 3ms, render: 13ms)
+ GET /register 200 in 23ms (compile: 6ms, render: 16ms)
+ GET / 200 in 14ms (compile: 1896µs, render: 13ms)
+ GET /student 200 in 15ms (compile: 3ms, render: 12ms)
+ GET / 200 in 42ms (compile: 4ms, render: 38ms)
+ GET /student 200 in 20ms (compile: 3ms, render: 17ms)
+ GET / 200 in 18ms (compile: 6ms, render: 12ms)
+ GET / 200 in 43ms (compile: 4ms, render: 39ms)
+ GET /cook 200 in 27ms (compile: 4ms, render: 23ms)
+ GET / 200 in 23ms (compile: 4ms, render: 19ms)
+ GET / 200 in 54ms (compile: 4ms, render: 50ms)
+ GET /admin 200 in 81ms (compile: 48ms, render: 33ms)
+ GET / 200 in 25ms (compile: 5ms, render: 20ms)
+ GET / 200 in 44ms (compile: 7ms, render: 37ms)
+ GET /student 200 in 46ms (compile: 4ms, render: 43ms)
+ GET / 200 in 26ms (compile: 4ms, render: 22ms)
+ GET /student 200 in 38ms (compile: 5ms, render: 33ms)
+ GET / 200 in 112ms (compile: 6ms, render: 105ms)
+ GET / 200 in 58ms (compile: 3ms, render: 55ms)
+ GET /cook 200 in 19ms (compile: 4ms, render: 15ms)
+ GET / 200 in 22ms (compile: 4ms, render: 18ms)
+ GET /student 200 in 24ms (compile: 2ms, render: 21ms)
+✓ Compiled in 256ms
+✓ Compiled in 37ms
+✓ Compiled in 90ms
+✓ Compiled in 58ms
+✓ Compiled in 17ms
+ GET /student 200 in 182ms (compile: 58ms, render: 123ms)
+ GET /student 200 in 31ms (compile: 4ms, render: 27ms)
+ GET / 200 in 31ms (compile: 5ms, render: 26ms)
+ GET /student 200 in 21ms (compile: 4ms, render: 18ms)
+ GET / 200 in 28ms (compile: 3ms, render: 25ms)
+ GET /student 200 in 18ms (compile: 6ms, render: 13ms)
+ GET / 200 in 25ms (compile: 6ms, render: 20ms)
+ GET / 200 in 43ms (compile: 5ms, render: 38ms)
+ GET / 200 in 93ms (compile: 2ms, render: 91ms)
+ GET / 200 in 44ms (compile: 1903µs, render: 43ms)
+ GET /register 200 in 18ms (compile: 5ms, render: 13ms)
+ GET / 200 in 18ms (compile: 3ms, render: 15ms)
+ GET /student 200 in 13ms (compile: 3ms, render: 10ms)
+ GET /register 200 in 21ms (compile: 4ms, render: 17ms)
+ GET / 200 in 18ms (compile: 2ms, render: 16ms)
+ GET /cook 200 in 13ms (compile: 3ms, render: 11ms)
+ GET / 200 in 82ms (compile: 1976µs, render: 80ms)
+ GET / 200 in 57ms (compile: 1374µs, render: 56ms)
