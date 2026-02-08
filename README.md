@@ -371,5 +371,5 @@ FK menu_item_id
 - `GET /admin/stats` - Статистика
 - `PUT /admin/requests/:id/approve` - Одобрить запрос
 
----
+
 
